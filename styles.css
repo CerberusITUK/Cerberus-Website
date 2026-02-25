@@ -1944,6 +1944,8 @@ main {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  width: 100%;
+  margin-top: var(--space-xs);
 }
 
 .founder__badge {
