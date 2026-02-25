@@ -1951,6 +1951,13 @@ main {
   margin-top: 0;
 }
 
+.founder__name {
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: var(--color-text);
+}
+
 .founder__badge {
   font-family: var(--font-body);
   font-size: 1rem;
