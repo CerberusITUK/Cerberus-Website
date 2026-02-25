@@ -1816,11 +1816,8 @@ main {
 .customers__author img {
   width: 48px;
   height: 48px;
-  border-radius: 0.4rem;
+  border-radius: 50%;
   object-fit: cover;
-  padding: 0.2rem;
-  background: var(--color-surface);
-  box-shadow: var(--shadow-card);
 }
 
 .customers__author-divider {
