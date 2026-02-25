@@ -1911,6 +1911,7 @@ main {
   align-items: center;
   justify-content: center;
   gap: var(--space-sm);
+  margin-top: var(--space-lg);
 }
 
 .founder__avatar {
