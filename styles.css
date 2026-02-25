@@ -3,16 +3,17 @@
 :root {
   --font-body: "Inter", system-ui, -apple-system, BlinkMacSystemFont,
     "Segoe UI", sans-serif;
-  --font-heading: "Satoshi", system-ui, -apple-system, BlinkMacSystemFont,
-    "Segoe UI", sans-serif;
   --color-surface: rgb(245, 245, 245);
   --color-text: #000;
   --color-gradient-dark: rgb(14, 28, 41);
   --color-gradient-light: #fff;
-  --founder-bg: var(--color-surface);
-  --founder-quote-color: rgba(0, 0, 0, 0.55);
-  --founder-badge-color: rgba(0, 0, 0, 0.9);
-  --founder-avatar-size: 28px;
+  --founder-bg-color: #f7f7f7;
+  --founder-quote-color: #000000;
+  --founder-badge-color: #000000;
+
+  --founder-avatar-size: 48px;
+
+  --font-heading: "Satoshi", "Satoshi Placeholder", sans-serif;
   --founder-avatar-ring-padding: 4px;
   --header-height: clamp(64px, 8vw, 88px);
   --radius-pill: 60px;
