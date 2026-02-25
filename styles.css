@@ -1892,6 +1892,12 @@ main {
   color: var(--founder-quote-color);
 }
 
+.founder__quote p {
+  text-align: center;
+  margin: var(--space-md) auto 0;
+  max-width: 800px;
+}
+
 .founder__emphasis {
   color: #000;
   font-weight: 600;
@@ -1912,13 +1918,11 @@ main {
   flex: none;
   width: min-content;
   height: min-content;
-  padding: var(--founder-avatar-ring-padding);
+  overflow: visible;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(180deg, var(--color-text) -278%, var(--color-gradient-light) 136%);
-  overflow: hidden;
-  box-shadow: var(--shadow-icon);
+  margin: var(--space-lg) auto 0;
 }
 
 .founder__avatar-media {
@@ -1937,7 +1941,9 @@ main {
 
 .founder__details {
   display: flex;
+  flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 
 .founder__badge {
