@@ -282,13 +282,13 @@ body {
   line-height: 1.6;
   font-size: clamp(0.95rem, 1.6vw, 1.05rem);
   padding: var(--page-padding);
-  padding-top: calc(var(--page-padding) - var(--header-height));
+  padding-top: calc(var(--page-padding) + 100px);
   color: var(--color-text);
   background: var(--color-surface);
 }
 
 main {
-  transform: translateY(-100px);
+  padding-top: 100px;
 }
 
 .site-header {
